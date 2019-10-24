@@ -22,6 +22,16 @@ class DiscreteIntervalNode {
     }
   }
 
+  inOrderTraverse(callback) {
+    if (this.left)
+      this.left.inOrderTraverse(callback);
+
+    callback(this.interval);
+
+    if (this.right)
+      this.right.inOrderTraverse(callback);
+  }
+
   isLeaf() {
     return !this.left && !this.right;
   }

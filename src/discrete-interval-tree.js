@@ -19,8 +19,8 @@ class DiscreteIntervalTree {
     const intervals = [];
 
     if (this.root) {
-      this.root.inOrderTraverse(function() {
-        intervals.push(this.interval);
+      this.root.inOrderTraverse(function(interval) {
+        intervals.push(interval);
       });
     }
 
