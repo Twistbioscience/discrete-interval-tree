@@ -8,3 +8,5 @@ class Interval {
     return value >= this.start && value <= this.end;
   }
 }
+
+module.exports = Interval;

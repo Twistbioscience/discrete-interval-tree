@@ -1,3 +1,5 @@
+const DiscreteIntervalNode = require('./discrete-interval-node');
+
 class DiscreteIntervalTree {
   constructor() {
     this.root = null;
@@ -159,3 +161,5 @@ class DiscreteIntervalTree {
     return false;
   }
 };
+
+module.exports = DiscreteIntervalTree;

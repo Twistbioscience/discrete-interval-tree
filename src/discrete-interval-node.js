@@ -1,3 +1,5 @@
+const Interval = require('./interval');
+
 class DiscreteIntervalNode {
   constructor(start, end, parent) {
     this.interval = new Interval(start, end);
@@ -58,3 +60,5 @@ class DiscreteIntervalNode {
     return this;
   }
 }
+
+module.exports = DiscreteIntervalNode;

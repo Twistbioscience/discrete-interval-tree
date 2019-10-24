@@ -2,7 +2,7 @@
   "name": "discrete-interval",
   "version": "1.0.0",
   "description": "",
-  "main": "discrete-intervals.js",
+  "main": "src/discrete-interval-tree.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
